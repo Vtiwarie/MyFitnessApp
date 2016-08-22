@@ -248,7 +248,6 @@ public class IdentityManager {
      */
     public interface SignInStateChangeListener {
 
-
         /**
          * Invoked when the user completes sign-in.
          */

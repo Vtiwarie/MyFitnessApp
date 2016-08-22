@@ -3,6 +3,7 @@ package com.mysampleapp.demo;
 import android.support.v4.app.Fragment;
 
 import com.mysampleapp.R;
+import com.mysampleapp.demo.nosql.NoSQLSelectTableDemoFragment;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,6 +33,11 @@ public class DemoConfiguration {
                         R.string.feature_user_data_storage_demo_button_user_settings,
                         UserSettingsDemoFragment.class)
         );
+        addDemoFeature("nosql_database", R.mipmap.database, R.string.feature_nosql_database_title,
+            R.string.feature_nosql_database_subtitle, R.string.feature_nosql_database_overview,
+            R.string.feature_nosql_database_description, R.string.feature_nosql_database_powered_by,
+            new DemoItem(R.string.main_fragment_title_nosql_database, R.mipmap.database,
+                R.string.feature_nosql_database_demo_button, NoSQLSelectTableDemoFragment.class));
     }
 
     public static List<DemoFeature> getDemoFeatureList() {
