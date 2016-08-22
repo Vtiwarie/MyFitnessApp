@@ -6,18 +6,18 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endColumn": 95,
-                    "endOffset": 146
+                    "endOffset": 196
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 291,
+                        "startOffset": 55,
                         "endColumn": 95,
-                        "endOffset": 382
+                        "endOffset": 146
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 151,
+                    "startOffset": 201,
                     "endColumn": 106,
-                    "endOffset": 253
+                    "endOffset": 303
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 387,
+                        "startOffset": 151,
                         "endColumn": 106,
-                        "endOffset": 489
+                        "endOffset": 253
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 258,
+                    "startOffset": 308,
                     "endColumn": 122,
-                    "endOffset": 376
+                    "endOffset": 426
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 494,
+                        "startOffset": 258,
                         "endColumn": 122,
-                        "endOffset": 612
+                        "endOffset": 376
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 381,
+                    "startOffset": 431,
                     "endColumn": 94,
-                    "endOffset": 471
+                    "endOffset": 521
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 617,
+                        "startOffset": 381,
                         "endColumn": 94,
-                        "endOffset": 707
+                        "endOffset": 471
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 476,
+                    "startOffset": 526,
                     "endColumn": 99,
-                    "endOffset": 571
+                    "endOffset": 621
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 712,
+                        "startOffset": 476,
                         "endColumn": 99,
-                        "endOffset": 807
+                        "endOffset": 571
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 576,
+                    "startOffset": 626,
                     "endColumn": 81,
-                    "endOffset": 653
+                    "endOffset": 703
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 812,
+                        "startOffset": 576,
                         "endColumn": 81,
-                        "endOffset": 889
+                        "endOffset": 653
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 658,
+                    "startOffset": 708,
                     "endColumn": 96,
-                    "endOffset": 750
+                    "endOffset": 800
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 894,
+                        "startOffset": 658,
                         "endColumn": 96,
-                        "endOffset": 986
+                        "endOffset": 750
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 755,
+                    "startOffset": 805,
                     "endColumn": 105,
-                    "endOffset": 856
+                    "endOffset": 906
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 991,
+                        "startOffset": 755,
                         "endColumn": 105,
-                        "endOffset": 1092
+                        "endOffset": 856
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 861,
+                    "startOffset": 911,
                     "endColumn": 75,
-                    "endOffset": 932
+                    "endOffset": 982
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1097,
+                        "startOffset": 861,
                         "endColumn": 75,
-                        "endOffset": 1168
+                        "endOffset": 932
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 937,
+                    "startOffset": 987,
                     "endColumn": 75,
-                    "endOffset": 1008
+                    "endOffset": 1058
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1173,
+                        "startOffset": 937,
                         "endColumn": 75,
-                        "endOffset": 1244
+                        "endOffset": 1008
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1013,
+                    "startOffset": 1063,
                     "endColumn": 77,
-                    "endOffset": 1086
+                    "endOffset": 1136
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1249,
+                        "startOffset": 1013,
                         "endColumn": 77,
-                        "endOffset": 1322
+                        "endOffset": 1086
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1091,
+                    "startOffset": 1141,
                     "endColumn": 95,
-                    "endOffset": 1182
+                    "endOffset": 1232
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1327,
+                        "startOffset": 1091,
                         "endColumn": 95,
-                        "endOffset": 1418
+                        "endOffset": 1182
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1187,
+                    "startOffset": 1237,
                     "endColumn": 95,
-                    "endOffset": 1278
+                    "endOffset": 1328
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1423,
+                        "startOffset": 1187,
                         "endColumn": 95,
-                        "endOffset": 1514
+                        "endOffset": 1278
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1283,
+                    "startOffset": 1333,
                     "endColumn": 94,
-                    "endOffset": 1373
+                    "endOffset": 1423
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1519,
+                        "startOffset": 1283,
                         "endColumn": 94,
-                        "endOffset": 1609
+                        "endOffset": 1373
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1378,
+                    "startOffset": 1428,
                     "endColumn": 96,
-                    "endOffset": 1470
+                    "endOffset": 1520
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1614,
+                        "startOffset": 1378,
                         "endColumn": 96,
-                        "endOffset": 1706
+                        "endOffset": 1470
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1475,
+                    "startOffset": 1525,
                     "endColumn": 94,
-                    "endOffset": 1565
+                    "endOffset": 1615
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1711,
+                        "startOffset": 1475,
                         "endColumn": 94,
-                        "endOffset": 1801
+                        "endOffset": 1565
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1570,
+                    "startOffset": 1620,
                     "endColumn": 97,
-                    "endOffset": 1663
+                    "endOffset": 1713
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1806,
+                        "startOffset": 1570,
                         "endColumn": 97,
-                        "endOffset": 1899
+                        "endOffset": 1663
                     }
                 }
             },
@@ -329,18 +329,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1668,
+                    "startOffset": 1718,
                     "endColumn": 111,
-                    "endOffset": 1775
+                    "endOffset": 1825
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1904,
+                        "startOffset": 1668,
                         "endColumn": 111,
-                        "endOffset": 2011
+                        "endOffset": 1775
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1780,
+                    "startOffset": 1830,
                     "endColumn": 93,
-                    "endOffset": 1869
+                    "endOffset": 1919
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2016,
+                        "startOffset": 1780,
                         "endColumn": 93,
-                        "endOffset": 2105
+                        "endOffset": 1869
                     }
                 }
             },
@@ -367,9 +367,560 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1874,
+                    "startOffset": 1924,
+                    "endColumn": 67,
+                    "endOffset": 1987
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endColumn": 67,
+                        "endOffset": 347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1992,
+                    "endColumn": 89,
+                    "endOffset": 2077
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 89,
+                        "endOffset": 383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2082,
+                    "endColumn": 78,
+                    "endOffset": 2156
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 388,
+                        "endColumn": 78,
+                        "endOffset": 462
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2161,
+                    "endColumn": 73,
+                    "endOffset": 2230
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 467,
+                        "endColumn": 73,
+                        "endOffset": 536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2235,
+                    "endColumn": 81,
+                    "endOffset": 2312
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 541,
+                        "endColumn": 81,
+                        "endOffset": 618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2317,
+                    "endColumn": 81,
+                    "endOffset": 2394
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 623,
+                        "endColumn": 81,
+                        "endOffset": 700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2399,
+                    "endColumn": 107,
+                    "endOffset": 2502
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 705,
+                        "endColumn": 107,
+                        "endOffset": 808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2507,
+                    "endColumn": 70,
+                    "endOffset": 2573
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 813,
+                        "endColumn": 70,
+                        "endOffset": 879
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2578,
+                    "endColumn": 127,
+                    "endOffset": 2701
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 338,
+                        "endColumn": 127,
+                        "endOffset": 461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2706,
+                    "endColumn": 129,
+                    "endOffset": 2831
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 466,
+                        "endColumn": 129,
+                        "endOffset": 591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2836,
+                    "endColumn": 91,
+                    "endOffset": 2923
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 596,
+                        "endColumn": 91,
+                        "endOffset": 683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2928,
+                    "endColumn": 71,
+                    "endOffset": 2995
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 884,
+                        "endColumn": 71,
+                        "endOffset": 951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3000,
+                    "endColumn": 70,
+                    "endOffset": 3066
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 956,
+                        "endColumn": 70,
+                        "endOffset": 1022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3071,
+                    "endColumn": 72,
+                    "endOffset": 3139
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1027,
+                        "endColumn": 72,
+                        "endOffset": 1095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3144,
+                    "endColumn": 80,
+                    "endOffset": 3220
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1100,
+                        "endColumn": 80,
+                        "endOffset": 1176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3225,
+                    "endColumn": 80,
+                    "endOffset": 3301
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1181,
+                        "endColumn": 80,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3306,
+                    "endColumn": 78,
+                    "endOffset": 3380
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 78,
+                        "endOffset": 1336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3385,
+                    "endColumn": 78,
+                    "endOffset": 3459
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1341,
+                        "endColumn": 78,
+                        "endOffset": 1415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3464,
+                    "endColumn": 70,
+                    "endOffset": 3530
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1420,
+                        "endColumn": 70,
+                        "endOffset": 1486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3535,
+                    "endColumn": 84,
+                    "endOffset": 3615
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1491,
+                        "endColumn": 84,
+                        "endOffset": 1571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3620,
+                    "endColumn": 93,
+                    "endOffset": 3709
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1576,
+                        "endColumn": 93,
+                        "endOffset": 1665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3714,
+                    "endColumn": 94,
+                    "endOffset": 3804
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1670,
+                        "endColumn": 94,
+                        "endOffset": 1760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3809,
+                    "endColumn": 107,
+                    "endOffset": 3912
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1765,
+                        "endColumn": 107,
+                        "endOffset": 1868
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3917,
+                    "endColumn": 107,
+                    "endOffset": 4020
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1873,
+                        "endColumn": 107,
+                        "endOffset": 1976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4025,
+                    "endColumn": 111,
+                    "endOffset": 4132
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1981,
+                        "endColumn": 111,
+                        "endOffset": 2088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4137,
+                    "endColumn": 91,
+                    "endOffset": 4224
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2093,
+                        "endColumn": 91,
+                        "endOffset": 2180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4229,
+                    "endColumn": 90,
+                    "endOffset": 4315
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2185,
+                        "endColumn": 90,
+                        "endOffset": 2271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4320,
+                    "endColumn": 97,
+                    "endOffset": 4413
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2276,
+                        "endColumn": 97,
+                        "endOffset": 2369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4418,
+                    "endColumn": 74,
+                    "endOffset": 4488
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2374,
+                        "endColumn": 74,
+                        "endOffset": 2444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4493,
                     "endColumn": 82,
-                    "endOffset": 1952
+                    "endOffset": 4571
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -384,11 +935,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 1957,
+                    "startOffset": 4576,
                     "endColumn": 88,
-                    "endOffset": 2041
+                    "endOffset": 4660
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -403,11 +954,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 2046,
+                    "startOffset": 4665,
                     "endColumn": 91,
-                    "endOffset": 2133
+                    "endOffset": 4752
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -422,11 +973,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 2138,
+                    "startOffset": 4757,
                     "endColumn": 61,
-                    "endOffset": 2195
+                    "endOffset": 4814
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -441,11 +992,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2200,
+                    "startOffset": 4819,
                     "endColumn": 64,
-                    "endOffset": 2260
+                    "endOffset": 4879
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -460,11 +1011,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 2265,
+                    "startOffset": 4884,
                     "endColumn": 56,
-                    "endOffset": 2317
+                    "endOffset": 4936
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -479,11 +1030,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 2322,
+                    "startOffset": 4941,
                     "endColumn": 67,
-                    "endOffset": 2385
+                    "endOffset": 5004
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -498,11 +1049,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 2390,
+                    "startOffset": 5009,
                     "endColumn": 67,
-                    "endOffset": 2453
+                    "endOffset": 5072
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -517,11 +1068,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 2458,
+                    "startOffset": 5077,
                     "endColumn": 84,
-                    "endOffset": 2538
+                    "endOffset": 5157
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -536,11 +1087,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 2543,
+                    "startOffset": 5162,
                     "endColumn": 68,
-                    "endOffset": 2607
+                    "endOffset": 5226
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -555,11 +1106,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 2612,
+                    "startOffset": 5231,
                     "endColumn": 68,
-                    "endOffset": 2676
+                    "endOffset": 5295
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -574,11 +1125,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 2681,
+                    "startOffset": 5300,
                     "endColumn": 75,
-                    "endOffset": 2752
+                    "endOffset": 5371
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -593,11 +1144,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 2757,
+                    "startOffset": 5376,
                     "endColumn": 91,
-                    "endOffset": 2844
+                    "endOffset": 5463
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -612,11 +1163,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 2849,
+                    "startOffset": 5468,
                     "endColumn": 60,
-                    "endOffset": 2905
+                    "endOffset": 5524
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -631,11 +1182,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 2910,
+                    "startOffset": 5529,
                     "endColumn": 61,
-                    "endOffset": 2967
+                    "endOffset": 5586
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -650,11 +1201,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 2972,
+                    "startOffset": 5591,
                     "endColumn": 85,
-                    "endOffset": 3053
+                    "endOffset": 5672
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -669,11 +1220,657 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 3058,
+                    "startOffset": 5677,
+                    "endColumn": 188,
+                    "endOffset": 5861
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 333,
+                        "endColumn": 188,
+                        "endOffset": 517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 5866,
+                    "endColumn": 115,
+                    "endOffset": 5977
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endColumn": 115,
+                        "endOffset": 633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 5982,
+                    "endColumn": 160,
+                    "endOffset": 6138
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 638,
+                        "endColumn": 160,
+                        "endOffset": 794
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 6143,
+                    "endColumn": 116,
+                    "endOffset": 6255
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 799,
+                        "endColumn": 116,
+                        "endOffset": 911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 6260,
+                    "endColumn": 118,
+                    "endOffset": 6374
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 916,
+                        "endColumn": 118,
+                        "endOffset": 1030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 6379,
+                    "endColumn": 169,
+                    "endOffset": 6544
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1035,
+                        "endColumn": 169,
+                        "endOffset": 1200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 6549,
+                    "endColumn": 172,
+                    "endOffset": 6717
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1205,
+                        "endColumn": 172,
+                        "endOffset": 1373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6722,
+                    "endColumn": 117,
+                    "endOffset": 6835
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1378,
+                        "endColumn": 117,
+                        "endOffset": 1491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 6840,
+                    "endColumn": 127,
+                    "endOffset": 6963
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1496,
+                        "endColumn": 127,
+                        "endOffset": 1619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 6968,
+                    "endColumn": 112,
+                    "endOffset": 7076
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1624,
+                        "endColumn": 112,
+                        "endOffset": 1732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 7081,
+                    "endColumn": 135,
+                    "endOffset": 7212
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1737,
+                        "endColumn": 135,
+                        "endOffset": 1868
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 7217,
+                    "endColumn": 110,
+                    "endOffset": 7323
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1873,
+                        "endColumn": 110,
+                        "endOffset": 1979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 7328,
+                    "endColumn": 120,
+                    "endOffset": 7444
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1984,
+                        "endColumn": 120,
+                        "endOffset": 2100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 7449,
+                    "endColumn": 156,
+                    "endOffset": 7601
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2105,
+                        "endColumn": 156,
+                        "endOffset": 2257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 7606,
+                    "endColumn": 140,
+                    "endOffset": 7742
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2262,
+                        "endColumn": 140,
+                        "endOffset": 2398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 7747,
+                    "endColumn": 128,
+                    "endOffset": 7871
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2403,
+                        "endColumn": 128,
+                        "endOffset": 2527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 7876,
+                    "endColumn": 117,
+                    "endOffset": 7989
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2532,
+                        "endColumn": 117,
+                        "endOffset": 2645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 7994,
+                    "endColumn": 123,
+                    "endOffset": 8113
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2650,
+                        "endColumn": 123,
+                        "endOffset": 2769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 8118,
+                    "endColumn": 111,
+                    "endOffset": 8225
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2774,
+                        "endColumn": 111,
+                        "endOffset": 2881
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 8230,
+                    "endColumn": 175,
+                    "endOffset": 8401
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 334,
+                        "endColumn": 175,
+                        "endOffset": 505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 8406,
+                    "endColumn": 189,
+                    "endOffset": 8591
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2886,
+                        "endColumn": 189,
+                        "endOffset": 3071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 8596,
+                    "endColumn": 116,
+                    "endOffset": 8708
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3076,
+                        "endColumn": 116,
+                        "endOffset": 3188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 8713,
+                    "endColumn": 102,
+                    "endOffset": 8811
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3193,
+                        "endColumn": 102,
+                        "endOffset": 3291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 8816,
+                    "endColumn": 160,
+                    "endOffset": 8972
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3296,
+                        "endColumn": 160,
+                        "endOffset": 3452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 8977,
+                    "endColumn": 116,
+                    "endOffset": 9089
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3457,
+                        "endColumn": 116,
+                        "endOffset": 3569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 9094,
+                    "endColumn": 162,
+                    "endOffset": 9252
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 3574,
+                        "endColumn": 162,
+                        "endOffset": 3732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 9257,
+                    "endColumn": 119,
+                    "endOffset": 9372
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 3737,
+                        "endColumn": 119,
+                        "endOffset": 3852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 9377,
+                    "endColumn": 137,
+                    "endOffset": 9510
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 3857,
+                        "endColumn": 137,
+                        "endOffset": 3990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 9515,
+                    "endColumn": 85,
+                    "endOffset": 9596
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 3995,
+                        "endColumn": 85,
+                        "endOffset": 4076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 9601,
+                    "endColumn": 86,
+                    "endOffset": 9683
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 4081,
+                        "endColumn": 86,
+                        "endOffset": 4163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 9688,
+                    "endColumn": 102,
+                    "endOffset": 9786
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 4168,
+                        "endColumn": 102,
+                        "endOffset": 4266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 9791,
+                    "endColumn": 94,
+                    "endOffset": 9881
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endColumn": 94,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 9886,
+                    "endColumn": 86,
+                    "endOffset": 9968
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 86,
+                        "endOffset": 529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 9973,
+                    "endColumn": 68,
+                    "endOffset": 10037
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 534,
+                        "endColumn": 68,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 10042,
                     "endColumn": 57,
-                    "endOffset": 3111
+                    "endOffset": 10095
                 },
                 "from": {
                     "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -688,20 +1885,324 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 3116,
-                    "endColumn": 100,
-                    "endOffset": 3212
+                    "startOffset": 10100,
+                    "endColumn": 102,
+                    "endOffset": 10198
                 },
                 "from": {
-                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 2110,
+                        "startOffset": 282,
+                        "endColumn": 102,
+                        "endOffset": 380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 10203,
+                    "endColumn": 98,
+                    "endOffset": 10297
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 385,
+                        "endColumn": 98,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 10302,
+                    "endColumn": 92,
+                    "endOffset": 10390
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 92,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 10395,
+                    "endColumn": 98,
+                    "endOffset": 10489
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 577,
+                        "endColumn": 98,
+                        "endOffset": 671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 10494,
+                    "endColumn": 110,
+                    "endOffset": 10600
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 676,
+                        "endColumn": 110,
+                        "endOffset": 782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 10605,
+                    "endColumn": 92,
+                    "endOffset": 10693
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 787,
+                        "endColumn": 92,
+                        "endOffset": 875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 10698,
+                    "endColumn": 91,
+                    "endOffset": 10785
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 880,
+                        "endColumn": 91,
+                        "endOffset": 967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 10790,
+                    "endColumn": 108,
+                    "endOffset": 10894
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 972,
+                        "endColumn": 108,
+                        "endOffset": 1076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 10899,
+                    "endColumn": 93,
+                    "endOffset": 10988
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1081,
+                        "endColumn": 93,
+                        "endOffset": 1170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 10993,
+                    "endColumn": 81,
+                    "endOffset": 11070
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1175,
+                        "endColumn": 81,
+                        "endOffset": 1252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 11075,
+                    "endColumn": 88,
+                    "endOffset": 11159
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1257,
+                        "endColumn": 88,
+                        "endOffset": 1341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 11164,
+                    "endColumn": 96,
+                    "endOffset": 11256
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 285,
+                        "endColumn": 96,
+                        "endOffset": 377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 11261,
+                    "endColumn": 91,
+                    "endOffset": 11348
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 382,
+                        "endColumn": 91,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 11353,
+                    "endColumn": 100,
+                    "endOffset": 11449
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1874,
                         "endColumn": 100,
-                        "endOffset": 2206
+                        "endOffset": 1970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 11454,
+                    "endColumn": 95,
+                    "endOffset": 11545
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 95,
+                        "endOffset": 694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 11550,
+                    "endColumn": 82,
+                    "endOffset": 11628
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 699,
+                        "endColumn": 82,
+                        "endOffset": 777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 11633,
+                    "endColumn": 100,
+                    "endOffset": 11729
+                },
+                "from": {
+                    "file": "C:\\Users\\Vishaan\\AndroidStudioProjects\\MyFitnessApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\9.2.1\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 100,
+                        "endOffset": 388
                     }
                 }
             }

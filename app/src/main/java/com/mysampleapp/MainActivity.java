@@ -8,43 +8,58 @@
 //
 package com.mysampleapp;
 
+import android.Manifest;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.amazonaws.mobile.AWSMobileClient;
 import com.amazonaws.mobile.user.IdentityManager;
 import com.amazonaws.mobileconnectors.cognito.Dataset;
 import com.amazonaws.mobileconnectors.cognito.DefaultSyncCallback;
 import com.amazonaws.mobileconnectors.cognito.Record;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.PendingResult;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.LocationSettingsRequest;
+import com.google.android.gms.location.LocationSettingsResult;
 import com.mysampleapp.demo.DemoConfiguration;
 import com.mysampleapp.demo.HomeDemoFragment;
-import android.content.IntentFilter;
-import android.content.BroadcastReceiver;
-import android.support.v4.content.LocalBroadcastManager;
-
-import com.mysampleapp.navigation.NavigationDrawer;
 import com.mysampleapp.demo.UserSettings;
+import com.mysampleapp.navigation.NavigationDrawer;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener,
+        GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
     /** Class name for log messages. */
-    private final static String LOG_TAG = MainActivity.class.getSimpleName();
+    private final static String LOG_TAG = MainActivity.class.getSimpleName() + 1;
 
     /** Bundle key for saving/restoring the toolbar title. */
     private final static String BUNDLE_KEY_TOOLBAR_TITLE = "title";
@@ -63,6 +78,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Button   signOutButton;
 
+    private GoogleApiClient mGoogleAPIClient;
+
+    private Location mCurrentLocation;
+
+    private LocationRequest mLocationRequest;
+
+    private static final int REQUEST_LOCATION = 0;
+    public static final int REQUEST_LOCATION_UPDATES = 1;
+    private static final int REQUEST_MAP_ENABLED = 2;
+    private static final int REQUEST_CHECK_SETTINGS = 3;
     /**
      * Initializes the Toolbar for use with the activity.
      */
@@ -86,10 +111,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * Initializes the sign-in and sign-out buttons.
      */
     private void setupSignInButtons() {
-
         signOutButton = (Button) findViewById(R.id.button_signout);
         signOutButton.setOnClickListener(this);
-
     }
 
     /**
@@ -136,17 +159,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Obtain a reference to the identity manager.
         identityManager = awsMobileClient.getIdentityManager();
 
-        setContentView(R.layout.activity_main);
+        if (mGoogleAPIClient == null) {
+            mGoogleAPIClient = new GoogleApiClient.Builder(this)
+                    .addConnectionCallbacks(this)
+                    .addOnConnectionFailedListener(this)
+                    .addApi(LocationServices.API)
+                    .build();
+        }
+
+        setRequestLocation();
+
+        enableLocation();
+
+        setContentView(R.layout.activity_main2);
 
         setupToolbar(savedInstanceState);
 
-        setupNavigationMenu(savedInstanceState);
+        FragmentManager fm = getSupportFragmentManager();
+        Fragment fragment = fm.findFragmentById(R.id.main_fragment_container);
+
+        if (fragment == null) {
+            fragment = MainListFragment.newInstance(null, null);
+            fm.beginTransaction()
+                    .add(R.id.main_fragment_container, fragment)
+                    .commit();
+        }
+
+//        setupNavigationMenu(savedInstanceState);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-
+        mGoogleAPIClient.connect();
         if (!AWSMobileClient.defaultMobileClient().getIdentityManager().isUserSignedIn()) {
             // In the case that the activity is restarted by the OS after the application
             // is killed we must redirect to the splash activity to handle the sign-in flow.
@@ -156,21 +201,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return;
         }
 
-        final AWSMobileClient awsMobileClient = AWSMobileClient.defaultMobileClient();
         // register settings changed receiver.
         LocalBroadcastManager.getInstance(this).registerReceiver(settingsChangedReceiver,
             new IntentFilter(UserSettings.ACTION_SETTINGS_CHANGED));
-        updateColor();
+//        updateColor();
         syncUserSettings();
     }
-
-    @Override
-    public boolean onOptionsItemSelected(final MenuItem item) {
-        // Handle action bar item clicks here excluding the home button.
-
-        return super.onOptionsItemSelected(item);
-    }
-
     @Override
     protected void onSaveInstanceState(final Bundle bundle) {
         super.onSaveInstanceState(bundle);
@@ -199,13 +235,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         public void onReceive(Context context, Intent intent) {
             Log.d(LOG_TAG, "Received settings changed local broadcast. Update theme colors.");
-            updateColor();
+//            updateColor();
         }
     };
 
     @Override
     protected void onPause() {
         super.onPause();
+        mGoogleAPIClient.disconnect();
         LocalBroadcastManager.getInstance(this).unregisterReceiver(settingsChangedReceiver);
     }
 
@@ -242,23 +279,54 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void syncUserSettings() {
+//        // sync only if user is signed in
+//        if (AWSMobileClient.defaultMobileClient().getIdentityManager().isUserSignedIn()) {
+//            final UserSettings userSettings = UserSettings.getInstance(getApplicationContext());
+//            userSettings.getDataset().synchronize(new DefaultSyncCallback() {
+//                @Override
+//                public void onSuccess(final Dataset dataset, final List<Record> updatedRecords) {
+//                    super.onSuccess(dataset, updatedRecords);
+//                    Log.d(LOG_TAG, "successfully synced user settings");
+//                    runOnUiThread(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            updateColor();
+//                        }
+//                    });
+//                }
+//            });
+//        }
+
         // sync only if user is signed in
         if (AWSMobileClient.defaultMobileClient().getIdentityManager().isUserSignedIn()) {
-            final UserSettings userSettings = UserSettings.getInstance(getApplicationContext());
-            userSettings.getDataset().synchronize(new DefaultSyncCallback() {
+            final DistanceTracker distanceTracker = DistanceTracker.getInstance();
+            distanceTracker.getDataset().synchronize(new DefaultSyncCallback(){
                 @Override
-                public void onSuccess(final Dataset dataset, final List<Record> updatedRecords) {
+                public void onSuccess(Dataset dataset, List<Record> updatedRecords) {
                     super.onSuccess(dataset, updatedRecords);
-                    Log.d(LOG_TAG, "successfully synced user settings");
+                    Log.d(LOG_TAG, "Successfully synced distance tracker");
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            updateColor();
+                            updateDistance(2345);
                         }
                     });
                 }
             });
         }
+    }
+
+    private void updateDistance(int distance) {
+        final DistanceTracker distanceTracker = DistanceTracker.getInstance();
+        distanceTracker.setDistanceWalked(distance);
+        new AsyncTask<Void, Void, Void>() {
+            @Override
+            protected Void doInBackground(Void... params) {
+                distanceTracker.saveToDataset();
+                return null;
+            }
+        }.execute();
+
     }
 
     public void updateColor() {
@@ -283,5 +351,133 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }.execute();
+    }
+
+    private void setRequestLocation() {
+        mLocationRequest = new LocationRequest();
+        mLocationRequest.setInterval(1000);
+        mLocationRequest.setFastestInterval(2000);
+        // Here, thisActivity is the current activity
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+        } else {
+            mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        }
+
+        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
+                .addLocationRequest(mLocationRequest);
+
+        final PendingResult<LocationSettingsResult> result = LocationServices.SettingsApi.checkLocationSettings(mGoogleAPIClient, builder.build());
+
+//        result.setResultCallback(new ResultCallback<LocationSettingsResult>() {
+//            @Override
+//            public void onResult(@NonNull LocationSettingsResult locationSettingsResult) {
+//                final Status status = result.getStatus();
+//                final LocationSettingsStates = result.getLocationSettingsStates();
+//                switch (status.getStatusCode()) {
+//                    case LocationSettingsStatusCodes.SUCCESS:
+//                        break;
+//                    case LocationSettingsStatusCodes.RESOLUTION_REQUIRED:
+//                        // Location settings are not satisfied, but this can be fixed
+//                        // by showing the user a dialog.
+//                        try {
+//                            // Show the dialog by calling startResolutionForResult(),
+//                            // and check the result in onActivityResult().
+//                            status.startResolutionForResult(
+//                                    PokeMapsActivity.this,
+//                                    REQUEST_CHECK_SETTINGS);
+//                        } catch (IntentSender.SendIntentException e) {
+//                            // Ignore the error.
+//                        }
+//                        break;
+//                    case LocationSettingsStatusCodes.SETTINGS_CHANGE_UNAVAILABLE:
+//                        // Location settings are not satisfied. However, we have no way
+//                        // to fix the settings so we won't show the dialog.
+//                        break;
+//                }
+//            }
+//        });
+    }
+
+    @Override
+    public void onConnected(@Nullable Bundle bundle) {
+        if(mGoogleAPIClient != null && mGoogleAPIClient.isConnected()) {
+            Log.d(LOG_TAG, "requesting updates");
+            requestLocationUpdates();
+        } else {
+            Log.d(LOG_TAG, "cannot request location updates");
+        }
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
+        Toast.makeText(this, location.toString(), Toast.LENGTH_SHORT).show();
+        if(mCurrentLocation != null) {
+            float distance = mCurrentLocation.distanceTo(location);
+            Log.d(LOG_TAG, "DISTANCE TO: " + String.valueOf(distance));
+        }
+        mCurrentLocation = location;
+    }
+
+    private void requestLocationUpdates() {
+        // Here, thisActivity is the current activity
+        if (ActivityCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION_UPDATES);
+        } else {
+            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleAPIClient, mLocationRequest, this);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case REQUEST_LOCATION_UPDATES:
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    requestLocationUpdates();
+                } else {
+
+                }
+                break;
+            case REQUEST_LOCATION:
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    enableLocation();
+                } else {
+
+                }
+                break;
+        }
+    }
+
+    private void enableLocation() {
+        // Here, thisActivity is the current activity
+        if (ActivityCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION);
+        } else {
+            mCurrentLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleAPIClient);
+        }
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+
+    private float convertMeters2Feet(float meters) {
+        return meters * 3.28084f;
     }
 }

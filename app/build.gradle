@@ -42,10 +42,11 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile fileTree(include: ['*.jar'], dir: 'app/libs')
-    compile 'com.android.support:appcompat-v7:23.1.0'
-    compile 'com.android.support:support-v4:23.1.0'
-    compile('com.amazonaws:aws-android-sdk-core:2.2.18')
-    compile('com.amazonaws:aws-android-sdk-cognito:2.2.18')
-    compile('com.amazonaws:aws-android-sdk-s3:2.2.18')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.amazonaws:aws-android-sdk-core:2.2.18'
+    compile 'com.amazonaws:aws-android-sdk-cognito:2.2.18'
+    compile 'com.amazonaws:aws-android-sdk-s3:2.2.18'
     compile 'com.facebook.android:facebook-android-sdk:4.6.0'
+    compile 'com.google.android.gms:play-services:9.2.1'
 }
