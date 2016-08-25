@@ -114,56 +114,56 @@ public class UserSettingsDemoFragment extends Fragment {
         selectedButton.setSelected(true);
     }
     private void setThemeColors(final Theme theme) {
-        final UserSettings userSettings = UserSettings.getInstance(getContext());
-        userSettings.setTitleTextColor(theme.titleTextColor);
-        userSettings.setBackgroundColor(theme.backgroundColor);
-        userSettings.setTitleBarColor(theme.titleBarColor);
-
-        new AsyncTask<Void, Void, Void>() {
-            @Override
-            protected Void doInBackground(final Void... params) {
-                userSettings.saveToDataset();
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(final Void aVoid) {
-
-                // update color
-                ((MainActivity) getActivity()).updateColor();
-
-                // save user settings to remote on background thread
-                userSettings.getDataset().synchronize(new Dataset.SyncCallback() {
-                    @Override
-                    public void onSuccess(Dataset dataset, List<Record> updatedRecords) {
-                        Log.d(LOG_TAG, "onSuccess - dataset updated");
-                    }
-
-                    @Override
-                    public boolean onConflict(Dataset dataset, List<SyncConflict> conflicts) {
-                        Log.d(LOG_TAG, "onConflict - dataset conflict");
-                        return false;
-                    }
-
-                    @Override
-                    public boolean onDatasetDeleted(Dataset dataset, String datasetName) {
-                        Log.d(LOG_TAG, "onDatasetDeleted - dataset deleted");
-                        return false;
-                    }
-
-                    @Override
-                    public boolean onDatasetsMerged(Dataset dataset, List<String> datasetNames) {
-                        Log.d(LOG_TAG, "onDatasetsMerged - datasets merged");
-                        return false;
-                    }
-
-                    @Override
-                    public void onFailure(DataStorageException dse) {
-                        Log.e(LOG_TAG, "onFailure - " + dse.getMessage(), dse);
-                    }
-                });
-            }
-        }.execute();
+//        final UserSettings userSettings = UserSettings.getInstance(getContext());
+//        userSettings.setTitleTextColor(theme.titleTextColor);
+//        userSettings.setBackgroundColor(theme.backgroundColor);
+//        userSettings.setTitleBarColor(theme.titleBarColor);
+//
+//        new AsyncTask<Void, Void, Void>() {
+//            @Override
+//            protected Void doInBackground(final Void... params) {
+//                userSettings.saveToDataset();
+//                return null;
+//            }
+//
+//            @Override
+//            protected void onPostExecute(final Void aVoid) {
+//
+//                // update color
+//                ((MainActivity) getActivity()).updateColor();
+//
+//                // save user settings to remote on background thread
+//                userSettings.getDataset().synchronize(new Dataset.SyncCallback() {
+//                    @Override
+//                    public void onSuccess(Dataset dataset, List<Record> updatedRecords) {
+//                        Log.d(LOG_TAG, "onSuccess - dataset updated");
+//                    }
+//
+//                    @Override
+//                    public boolean onConflict(Dataset dataset, List<SyncConflict> conflicts) {
+//                        Log.d(LOG_TAG, "onConflict - dataset conflict");
+//                        return false;
+//                    }
+//
+//                    @Override
+//                    public boolean onDatasetDeleted(Dataset dataset, String datasetName) {
+//                        Log.d(LOG_TAG, "onDatasetDeleted - dataset deleted");
+//                        return false;
+//                    }
+//
+//                    @Override
+//                    public boolean onDatasetsMerged(Dataset dataset, List<String> datasetNames) {
+//                        Log.d(LOG_TAG, "onDatasetsMerged - datasets merged");
+//                        return false;
+//                    }
+//
+//                    @Override
+//                    public void onFailure(DataStorageException dse) {
+//                        Log.e(LOG_TAG, "onFailure - " + dse.getMessage(), dse);
+//                    }
+//                });
+//            }
+//        }.execute();
     }
 
     private void loadUserSettings() {
@@ -202,15 +202,15 @@ public class UserSettingsDemoFragment extends Fragment {
     }
 
     private void updateUI(final ProgressDialog dialog) {
-        getActivity().runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                if (dialog != null) {
-                    dialog.dismiss();
-                }
-
-                ((MainActivity) getActivity()).updateColor();
-            }
-        });
+//        getActivity().runOnUiThread(new Runnable() {
+//            @Override
+//            public void run() {
+//                if (dialog != null) {
+//                    dialog.dismiss();
+//                }
+//
+//                ((MainActivity) getActivity()).updateColor();
+//            }
+//        });
     }
 }
