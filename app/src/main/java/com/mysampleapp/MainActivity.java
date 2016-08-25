@@ -92,6 +92,12 @@ public class MainActivity extends AppCompatActivity implements
     //counter to store the intervals of 1000 feet that have been traveled
     private int mIntervalCount = 0;
 
+    //update location every X seconds
+    private static final long UPDATE_INTERVAL = 1000;
+
+    //the maximum amount of feet used to start the alarm, which notifies that the user should start walking
+    private static final int MINIMUM_FEET_TO_TRIGGER_ALARM = 20;
+
     //broadcast receiver action to react to alarms and perform actions
     private static String BROADCAST_ACTION = "com.mysampleapp.ACTION_ALERT";
 
@@ -149,8 +155,7 @@ public class MainActivity extends AppCompatActivity implements
 
     /**
      * Class for managing the alarm to notify users to get up and start walking
-     * if idle for an hour.  Cancels previous alarm if new alarm is set, as
-     * set by flag.
+     * if idle for an hour.
      */
     public class Alarm {
         private AlarmManager mAlarmManager;
@@ -163,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements
             mAlarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
             Intent intent = new Intent(MainActivity.this, MyAlarmReceiver.class);
             intent.setAction(BROADCAST_ACTION);
-            mPendingIntent = PendingIntent.getBroadcast(MainActivity.this, BROADCAST_REQUEST_CODE, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+            mPendingIntent = PendingIntent.getBroadcast(MainActivity.this, BROADCAST_REQUEST_CODE, intent, PendingIntent.FLAG_UPDATE_CURRENT);
         }
 
         private void startAlarm() {
@@ -172,6 +177,12 @@ public class MainActivity extends AppCompatActivity implements
             calendar.setTimeInMillis(System.currentTimeMillis());
 
             mAlarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis() + INTERVAL, mPendingIntent);
+        }
+
+        public boolean isAlarmSet() {
+            return (PendingIntent.getBroadcast(MainActivity.this, 0,
+                    new Intent(BROADCAST_ACTION),
+                    PendingIntent.FLAG_NO_CREATE) != null);
         }
     }
 
@@ -236,6 +247,7 @@ public class MainActivity extends AppCompatActivity implements
                     .addApi(LocationServices.API)
                     .build();
         }
+        mGoogleAPIClient.connect();
 
         setRequestLocation();
 
@@ -264,7 +276,9 @@ public class MainActivity extends AppCompatActivity implements
     protected void onResume() {
         super.onResume();
         mDistanceDS.open();
-        mGoogleAPIClient.connect();
+        if( ! mGoogleAPIClient.isConnected()) {
+            mGoogleAPIClient.connect();
+        }
 
         updateUI();
 
@@ -280,7 +294,9 @@ public class MainActivity extends AppCompatActivity implements
     protected void onPause() {
         super.onPause();
         mDistanceDS.close();
-        mGoogleAPIClient.disconnect();
+        if(mGoogleAPIClient.isConnected()) {
+            mGoogleAPIClient.disconnect();
+        }
     }
 
     @Override
@@ -359,7 +375,6 @@ public class MainActivity extends AppCompatActivity implements
         handleChangeInDistance(location);
         checkIntervalFor1000Feet();
         updateUI();
-        mAlarm.startAlarm();
     }
 
     /**
@@ -383,6 +398,17 @@ public class MainActivity extends AppCompatActivity implements
         mDistanceDS.insert(mCurrentTrack);
 
         mCurrentLocation = location;
+
+        //set an alarm to notify the user to get up and walk, if idle for too long
+        if(distance < MINIMUM_FEET_TO_TRIGGER_ALARM) {
+            if( ! mAlarm.isAlarmSet()) {
+                mAlarm.startAlarm();
+            }
+        } else {
+            //the user is actively walking. Cancel alarm
+            mAlarm.mAlarmManager.cancel(mAlarm.mPendingIntent);
+            Log.d(LOG_TAG, "ALARM CANCELED");
+        }
     }
 
     /**
@@ -420,8 +446,8 @@ public class MainActivity extends AppCompatActivity implements
      */
     private void setRequestLocation() {
         mLocationRequest = new LocationRequest();
-        mLocationRequest.setInterval(1000);
-        mLocationRequest.setFastestInterval(2000);
+        mLocationRequest.setInterval(UPDATE_INTERVAL);
+        mLocationRequest.setFastestInterval(2*UPDATE_INTERVAL);
         // Here, thisActivity is the current activity
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION)
