@@ -87,7 +87,7 @@ public class SplashActivity extends Activity {
 
             Toast.makeText(SplashActivity.this, String.format("Sign-in with %s failed.",
                 provider.getDisplayName()), Toast.LENGTH_LONG).show();
-            goSignIn();
+            goMain();
 
         }
     }
@@ -112,7 +112,7 @@ public class SplashActivity extends Activity {
                         provider, new SignInResultsHandler());
                 } else {
                     // Asyncronously go to the sign-in page (after the splash delay has expired).
-                    goSignIn();
+                    goMain();
                 }
 
                 // Wait for the splash timeout.

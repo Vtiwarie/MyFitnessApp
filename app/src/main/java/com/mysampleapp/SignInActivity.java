@@ -92,6 +92,8 @@ public class SignInActivity extends Activity {
                 String.format("Sign-in with %s failed.\n%s", provider.getDisplayName(), ex.getMessage()));
             errorDialogBuilder.setNeutralButton("Ok", null);
             errorDialogBuilder.show();
+
+            startActivity(new Intent(SignInActivity.this, MainActivity.class));
         }
     }
 

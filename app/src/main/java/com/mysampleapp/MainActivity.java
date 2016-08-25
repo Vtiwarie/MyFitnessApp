@@ -274,16 +274,6 @@ public class MainActivity extends AppCompatActivity implements
         } else {
             Log.d(LOG_TAG, "NO ENTRY FOUND FOR THIS DATE");
         }
-
-        //if user not signed in, log out
-        if (!AWSMobileClient.defaultMobileClient().getIdentityManager().isUserSignedIn()) {
-            // In the case that the activity is restarted by the OS after the application
-            // is killed we must redirect to the splash activity to handle the sign-in flow.
-            Intent intent = new Intent(this, SplashActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(intent);
-            return;
-        }
     }
 
     @Override
@@ -361,7 +351,7 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
+        Log.d(LOG_TAG, "Could't connect to google api");
     }
 
     @Override
